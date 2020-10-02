@@ -29,7 +29,7 @@ div.padding-box {
 
 div.box {
     /*margin: 15px;*/
-    border: 2px solid #1C2833;
+    border: 1px solid #1C2833;
     float: left;
     background-color: #AEB6BF;
 }
@@ -38,14 +38,14 @@ section.menu-item {
     font-size: 25px;
     text-align: center;
     padding: 5px;
-    border: 2px solid #1C2833;
+    border: 1px solid #1C2833;
     width: 200px;
     position: relative;
     float: right;
     /*move the box 1px from the left
     (1px to the right) and -1px from
     the top (1px upwards)*/
-    transform: translate(2px, -2px);
+    transform: translate(1px, -1px);
 }
 
 .menu-item#chicken {
