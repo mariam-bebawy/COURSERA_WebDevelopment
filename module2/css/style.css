@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C2833;
+    font-weight: 500;
+    background-color: #F7F9F9;
+}
+
+h1.menu {
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+div.row {
+    width: 100%;
+    padding: 15px;
+}
+
+div.box {
+    /*margin: 15px;*/
+    border: 2px solid #1C2833;
+    float: left;
+    background-color: #AEB6BF;
+    margin: 1.66%;
+}
+
+section.menu-item {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #1C2833;
+    width: 200px;
+    position: relative;
+    float: right;
+    /*move the box 1px from the left
+    (1px to the right) and -1px from
+    the top (1px upwards)*/
+    transform: translate(2px, -2px);
+}
+
+.menu-item#chicken {
+    background-color: #F2D7D5;
+}
+
+.menu-item#beef {
+    background-color: #D98880;
+}
+.menu-item#sushi {
+    background-color: #FCF3CF;
+}
+
+.box p {
+    font-size: 20px;
+    clear: both;
+    padding: 15px;
+}
+
+
+/* media query for large screens */
+
+@media ( min-width: 992px ) {
+    .col-lg-4 {
+        width: 30%;
+    }
+}
+
+/* media query for medium screens */
+
+@media ( min-width: 769px ) and
+( max-width: 991px) {
+    .col-md-6 {
+        width: 46.68%
+    }
+}
+
+/* media query for small screens */
+
+@media ( max-width: 768px ) {
+    .col-lg-4 {
+        width: 96.7%;
+    }
+}
